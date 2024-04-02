@@ -41,3 +41,17 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+
+### Deploying to GitHub Pages
+
+Commit the dist folder to your repository:
+
+```bash
+git add dist && git commit -m "Deploy"
+```
+
+Use git subtree push to push just the dist folder to your gh-pages branch:
+
+```bash
+git subtree push --prefix dist origin gh-pages
+```
