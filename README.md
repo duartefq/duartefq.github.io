@@ -1,6 +1,4 @@
-# duarteq.com
-
-This template should help get you started developing with Vue 3 in Vite.
+# duartefq.github.io
 
 ## Recommended IDE Setup
 
