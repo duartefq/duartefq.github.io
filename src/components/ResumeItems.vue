@@ -101,7 +101,6 @@ import { Category } from '@/types'
             Designed and built a Laravel platform for MERCOSUR and Brazil's Ministry of Health to
             manage healthcare professional applications for international work.
           </li>
-          <li>Implemented continuous integration (CI) for rigorous testing and deployment.</li>
         </ul>
       </ResumeItem>
       <ResumeItem>
