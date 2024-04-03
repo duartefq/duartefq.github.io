@@ -5,9 +5,7 @@ import ProfileCard from './components/ProfileCard.vue'
 
 <template>
   <div class="grid grid-cols-4">
-    <div
-      class="self-start lg:min-h-screen flex justify-center items-center sticky lg:col-span-2 col-span-4"
-    >
+    <div class="lg:min-h-screen flex justify-center items-center sticky lg:col-span-2 col-span-4">
       <ProfileCard />
     </div>
     <main class="lg:col-span-2 col-span-4">

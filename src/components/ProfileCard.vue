@@ -27,7 +27,7 @@ const buttonMessage = computed(() => options[currentMessage.value % options.leng
 </script>
 
 <template>
-  <div class="flex-col justify-center items-center">
+  <div class="flex-col px-2 justify-center items-center">
     <!-- Profile Picture -->
     <img
       alt="Duarte's profile picture"
@@ -41,8 +41,8 @@ const buttonMessage = computed(() => options[currentMessage.value % options.leng
     <h1 class="text-5xl font-bold text-center">Hello, I'm Duarte Fernandes.</h1>
 
     <!-- Description -->
-    <p class="text-xl mt-4 text-center">
-      I'm a <span class="underline decoration-wavy">Full Stack Web Developer</span>
+    <p class="text-xl mt-4 text-center text-pretty">
+      I'm a <span class="underline decoration-wavy">Full Stack Web Developer </span>
     </p>
 
     <!-- Location -->

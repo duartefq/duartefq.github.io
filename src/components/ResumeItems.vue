@@ -7,7 +7,7 @@ import { Category } from '@/types'
 </script>
 
 <template>
-  <div class="lg:h-full lg:max-h-screen lg:overflow-y-auto ml-2">
+  <div class="lg:max-h-screen lg:overflow-y-auto ml-2">
     <ol class="relative ms-4 me-4 border-s border-gray-200 dark:border-gray-700 my-4">
       <ResumeItem>
         <!-- Begin: Work Experience -->
