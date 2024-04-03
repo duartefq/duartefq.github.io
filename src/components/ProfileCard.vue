@@ -9,7 +9,7 @@ const highlightLinkedIn = computed(() => route.name === 'about')
 let timer: NodeJS.Timeout | undefined = undefined
 
 const currentMessage = ref(0)
-const options = ['LinkedIn', 'Hire Me 🙂']
+const options = ['LinkedIn', 'Hire Me 😉']
 
 onMounted(() => {
   timer = setInterval(() => {
