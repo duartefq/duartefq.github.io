@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       animation: {
-        wave: 'wave 2s linear infinite',
+        wave: 'wave 4s linear infinite',
         border: 'background 2s ease infinite'
       },
       keyframes: {

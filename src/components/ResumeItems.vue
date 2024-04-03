@@ -10,9 +10,11 @@ import { Category } from '@/types'
   <div class="lg:h-full lg:max-h-screen lg:overflow-y-auto">
     <ol class="relative ms-4 border-s border-gray-200 dark:border-gray-700 my-4">
       <ResumeItem>
+        <!-- Begin: Work Experience -->
         <template #icon>
           <FontAwesomeIcon :icon="faBriefcase" />
         </template>
+
         <template #heading>
           Senior Full Stack Web Developer (2022-2024)
           <br />
@@ -21,6 +23,7 @@ import { Category } from '@/types'
         <template #period>2018-2024</template>
         <template #sub-heading>Queen's University</template>
         <template #location>Kingston, Ontario</template>
+
         <template #technologies>
           <ItemPill :category="Category.Programming">PHP</ItemPill>
           <ItemPill :category="Category.Programming">JavaScript</ItemPill>
@@ -37,6 +40,7 @@ import { Category } from '@/types'
           <ItemPill :category="Category.Tool">Git</ItemPill>
           <ItemPill :category="Category.Tool">Postman</ItemPill>
         </template>
+
         <ul class="space-y-2 list-disc">
           <li>
             Developed new modules for <a href="https://elentra.org" target="_blank">elentra.org</a>,
@@ -50,16 +54,19 @@ import { Category } from '@/types'
           <li>Contributed to the Elentra Platform's architecture committee.</li>
         </ul>
       </ResumeItem>
+
       <ResumeItem>
         <template #icon>
           <FontAwesomeIcon :icon="faBriefcase" />
         </template>
+
         <template #heading>Full Stack Web Developer</template>
         <template #sub-heading
           >Fiotec (Foundation for Scientific and Technological Development in Health)</template
         >
         <template #period>2018-2018</template>
         <template #location>Natal, Brazil</template>
+
         <template #technologies>
           <ItemPill :category="Category.Programming">Python</ItemPill>
           <ItemPill :category="Category.Programming">JavaScript</ItemPill>
@@ -69,6 +76,7 @@ import { Category } from '@/types'
           <ItemPill :category="Category.Tool">Git</ItemPill>
           <ItemPill :category="Category.Tool">PostgreSQL</ItemPill>
         </template>
+
         <ul class="space-y-2 list-disc">
           <li>
             Built a web platform for managing healthcare professional courses and implemented data
@@ -76,14 +84,17 @@ import { Category } from '@/types'
           </li>
         </ul>
       </ResumeItem>
+
       <ResumeItem>
         <template #icon>
           <FontAwesomeIcon :icon="faBriefcase" />
         </template>
+
         <template #heading>Full Stack Web Developer Intern</template>
         <template #sub-heading>Laboratory for Technological Innovation in Healthcare</template>
         <template #period>2015-2017</template>
         <template #location>Natal, Brazil</template>
+
         <template #technologies>
           <ItemPill :category="Category.Programming">PHP</ItemPill>
           <ItemPill :category="Category.Programming">JavaScript</ItemPill>
@@ -96,6 +107,7 @@ import { Category } from '@/types'
           <ItemPill :category="Category.Tool">Postman</ItemPill>
           <ItemPill :category="Category.Tool">CI/CD</ItemPill>
         </template>
+
         <ul class="space-y-2 list-disc">
           <li>
             Designed and built a Laravel platform to manage healthcare professional applications for
@@ -103,10 +115,14 @@ import { Category } from '@/types'
           </li>
         </ul>
       </ResumeItem>
+      <!-- End: Work Experience -->
+
+      <!-- Begin: Education -->
       <ResumeItem>
         <template #icon>
           <FontAwesomeIcon :icon="faGraduationCap" />
         </template>
+
         <template #period>Class of 2017</template>
         <template #location>Natal, Brazil</template>
         <template #heading
@@ -115,10 +131,12 @@ import { Category } from '@/types'
         <template #sub-heading
           >Federal Institute of Technology of Rio Grande do Norte (IFRN)</template
         >
+
         <ul class="space-y-2 list-disc">
           <li>With an academic exchange period at Langara College, Vancouver, BC (2013-2015).</li>
         </ul>
       </ResumeItem>
+      <!-- End: Education -->
     </ol>
   </div>
 </template>
