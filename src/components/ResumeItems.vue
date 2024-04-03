@@ -71,8 +71,8 @@ import { Category } from '@/types'
         </template>
         <ul class="space-y-2 list-disc">
           <li>
-            Built a web platform for managing Brazilian healthcare professional courses and
-            implemented data pipelines & visualizations (using Power BI) for course analysis.
+            Built a web platform for managing healthcare professional courses and implemented data
+            pipelines and visualizations using Power BI.
           </li>
         </ul>
       </ResumeItem>
@@ -98,8 +98,8 @@ import { Category } from '@/types'
         </template>
         <ul class="space-y-2 list-disc">
           <li>
-            Designed and built a Laravel platform for MERCOSUR and Brazil's Ministry of Health to
-            manage healthcare professional applications for international work.
+            Designed and built a Laravel platform to manage healthcare professional applications for
+            international work.
           </li>
         </ul>
       </ResumeItem>

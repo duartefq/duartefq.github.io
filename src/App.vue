@@ -11,12 +11,10 @@ import ProfileCard from './components/ProfileCard.vue'
   </header>
 
   <RouterView v-slot="{ Component }">
-    <transition name="slide-fade">
+    <Transition name="fade" mode="out-in">
       <component :is="Component" />
-    </transition>
+    </Transition>
   </RouterView>
-
-  <!-- <RouterView /> -->
 </template>
 
 <style scoped>
@@ -39,17 +37,13 @@ header {
   }
 }
 
-.slide-fade-enter-active {
-  transition: all 1s ease-out;
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
 }
 
-.slide-fade-leave-active {
-  transition: all 0.5s cubic-bezier(1, 0.5, 0.8, 1);
-}
-
-.slide-fade-enter-from,
-.slide-fade-leave-to {
-  transform: translateX(20px);
+.fade-enter-from,
+.fade-leave-to {
   opacity: 0;
 }
 </style>
