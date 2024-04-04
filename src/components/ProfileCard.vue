@@ -6,7 +6,7 @@ import { useRoute } from 'vue-router'
 const route = useRoute()
 const highlightLinkedIn = computed(() => route.name === 'about')
 
-let timer: NodeJS.Timeout | undefined = undefined
+let timer: ReturnType<typeof setInterval>
 
 const currentMessage = ref(0)
 const options = ['LinkedIn', 'Hire Me 😉']
