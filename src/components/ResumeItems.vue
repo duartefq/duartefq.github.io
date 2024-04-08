@@ -61,9 +61,9 @@ import { Category } from '@/types'
         </template>
 
         <template #heading>Full Stack Web Developer</template>
-        <template #sub-heading
-          >Fiotec (Foundation for Scientific and Technological Development in Health)</template
-        >
+        <template #sub-heading>
+          Fiotec (Foundation for Scientific and Technological Development in Health)
+        </template>
         <template #period>2018-2018</template>
         <template #location>Natal, Brazil</template>
 
@@ -125,12 +125,12 @@ import { Category } from '@/types'
 
         <template #period>Class of 2017</template>
         <template #location>Natal, Brazil</template>
-        <template #heading
-          >Bachelor of Technology in System Analysis and Software Development</template
-        >
-        <template #sub-heading
-          >Federal Institute of Technology of Rio Grande do Norte (IFRN)</template
-        >
+        <template #heading>
+          Bachelor of Technology in System Analysis and Software Development
+        </template>
+        <template #sub-heading>
+          Federal Institute of Technology of Rio Grande do Norte (IFRN)
+        </template>
 
         <ul class="space-y-2 list-disc">
           <li>With an academic exchange period at Langara College, Vancouver, BC (2013-2015).</li>
