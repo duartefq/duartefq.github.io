@@ -7,8 +7,8 @@ import { Category } from '@/types'
 </script>
 
 <template>
-  <div class="lg:max-h-screen lg:overflow-y-auto ml-2">
-    <ol class="relative ms-4 me-4 border-s border-gray-200 dark:border-gray-700 my-4">
+  <div>
+    <ol class="relative my-4 border-gray-200 ms-4 me-4 border-s dark:border-gray-700">
       <ResumeItem>
         <!-- Begin: Work Experience -->
         <template #icon>
@@ -16,13 +16,50 @@ import { Category } from '@/types'
         </template>
 
         <template #heading>
-          Senior Full Stack Web Developer (2022-2024)
+          Senior Software Engineer (Full Stack)
+        </template>
+        <template #period>2024-2025</template>
+        <template #sub-heading>Jobscan</template>
+        <template #location>Seattle, WA (Remote)</template>
+
+        <template #technologies>
+          <ItemPill :category="Category.Frameworks">Vue.js</ItemPill>
+          <ItemPill :category="Category.Programming">TypeScript</ItemPill>
+          <ItemPill :category="Category.Programming">TailwindCSS</ItemPill>
+          <ItemPill :category="Category.Programming">PHP</ItemPill>
+          <ItemPill :category="Category.Frameworks">Laravel</ItemPill>
+          <ItemPill :category="Category.Programming">SQL</ItemPill>
+          <ItemPill :category="Category.Programming">Bash</ItemPill>
+          <ItemPill :category="Category.Frameworks">Pinia</ItemPill>
+          <ItemPill :category="Category.Tool">Vitest</ItemPill>
+          <ItemPill :category="Category.Tool">Docker</ItemPill>
+          <ItemPill :category="Category.Tool">Vite</ItemPill>
+          <ItemPill :category="Category.Tool">MySQL</ItemPill>
+          <ItemPill :category="Category.Tool">Git</ItemPill>
+        </template>
+
+        <ul class="space-y-2 list-disc">
+          <li>
+            Collaborating with Product Managers and Designers to developed new features for <a href="https://jobscan.co" target="_blank">Jobscan</a>,
+            an AI-powered platform serving thousands of users daily.
+          </li>
+        </ul>
+      </ResumeItem>
+
+      <ResumeItem>
+        <!-- Begin: Work Experience -->
+        <template #icon>
+          <FontAwesomeIcon :icon="faBriefcase" />
+        </template>
+
+        <template #heading>
+          Senior Full Stack Software Engineer (2022-2024)
           <br />
-          Full Stack Web Developer (2018-2022)
+          Full Stack Software Engineer (2018-2022)
         </template>
         <template #period>2018-2024</template>
         <template #sub-heading>Queen's University</template>
-        <template #location>Kingston, Ontario</template>
+        <template #location>Kingston, Ontario (Remote)</template>
 
         <template #technologies>
           <ItemPill :category="Category.Programming">PHP</ItemPill>
@@ -60,12 +97,12 @@ import { Category } from '@/types'
           <FontAwesomeIcon :icon="faBriefcase" />
         </template>
 
-        <template #heading>Full Stack Web Developer</template>
+        <template #heading>Full Stack Software Engineer</template>
         <template #sub-heading>
           Fiotec (Foundation for Scientific and Technological Development in Health)
         </template>
         <template #period>2018-2018</template>
-        <template #location>Natal, Brazil</template>
+        <template #location>Rio de Janeiro, Brazil (Remote)</template>
 
         <template #technologies>
           <ItemPill :category="Category.Programming">Python</ItemPill>
@@ -81,37 +118,6 @@ import { Category } from '@/types'
           <li>
             Built a web platform for managing healthcare professional courses and implemented data
             pipelines and visualizations using Power BI.
-          </li>
-        </ul>
-      </ResumeItem>
-
-      <ResumeItem>
-        <template #icon>
-          <FontAwesomeIcon :icon="faBriefcase" />
-        </template>
-
-        <template #heading>Full Stack Web Developer Intern</template>
-        <template #sub-heading>Laboratory for Technological Innovation in Healthcare</template>
-        <template #period>2015-2017</template>
-        <template #location>Natal, Brazil</template>
-
-        <template #technologies>
-          <ItemPill :category="Category.Programming">PHP</ItemPill>
-          <ItemPill :category="Category.Programming">JavaScript</ItemPill>
-          <ItemPill :category="Category.Programming">SQL</ItemPill>
-          <ItemPill :category="Category.Programming">Bash</ItemPill>
-          <ItemPill :category="Category.Frameworks">Laravel</ItemPill>
-          <ItemPill :category="Category.Tool">Docker</ItemPill>
-          <ItemPill :category="Category.Tool">MySQL</ItemPill>
-          <ItemPill :category="Category.Tool">Git</ItemPill>
-          <ItemPill :category="Category.Tool">Postman</ItemPill>
-          <ItemPill :category="Category.Tool">CI/CD</ItemPill>
-        </template>
-
-        <ul class="space-y-2 list-disc">
-          <li>
-            Designed and built a Laravel platform to manage healthcare professional applications for
-            international work.
           </li>
         </ul>
       </ResumeItem>

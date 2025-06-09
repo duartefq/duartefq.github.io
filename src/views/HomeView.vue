@@ -1,5 +1,5 @@
 <template>
-  <div class="lg:min-h-screen pt-8 flex justify-center items-center">
+  <div class="flex items-center justify-center pt-8 lg:min-h-screen">
     <RouterLink
       data-text="Click here to learn more."
       to="/about"
