@@ -42,7 +42,7 @@ const buttonMessage = computed(() => options[currentMessage.value % options.leng
 
     <!-- Description -->
     <p class="mt-4 text-xl text-center text-pretty">
-      I'm a <span class="underline decoration-wavy">Full Stack Web Developer </span>
+      I'm a <span class="underline decoration-wavy">Full Stack Software Engineer</span>
     </p>
 
     <!-- Location -->
